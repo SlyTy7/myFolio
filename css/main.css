@@ -113,7 +113,7 @@ header a:hover {
 	background-color: #ffffff;
 	text-align: center;
 	color: #7e8287;
-	padding-bottom: 15px;
+	padding-bottom: 35px;
 }
 
 .about hr {
@@ -164,6 +164,7 @@ header a:hover {
 .services {
 	background-color: #f0f0e8;
 	height: 800px;
+	margin-right: -2%;
 }
 
 .left-services, .right-services {
@@ -176,8 +177,153 @@ header a:hover {
 .left-services {
 }
 
+
+/* ARTICLE */
+.left-services .article {
+	margin: 0 auto;
+	padding-left: 10%;
+	width: 75%;
+}
+
+.left-services .article h3 {
+	text-align: left;
+}
+
+.left-services .article hr{
+	width: 60%;
+	margin: 25px 0;
+}
+
+.left-services .article p {
+	color: #7e8287;
+	line-height: 40px;
+	margin-bottom: 40px;
+}/*END ARTICLE*/
+
+
+/* GRID */
+.services-grid {
+	margin: 0 auto;
+	padding-left: 10%;
+	width: 75%;
+	color: #7e8287;
+}
+
+.services-grid > div {
+	display: inline-block;
+	width: 39%;
+	margin-right: 10%;
+	margin-bottom: 20px;
+}
+
+.services-grid i{
+	color: #02908B;
+}
+
+.services-grid h4 {
+	margin: 15px auto;
+	font-size: 18px;
+}
+
+.services-grid p {
+	font-size: 11px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}/*END GRID*/
+
 .right-services {
 	background-position: center;
 	background-image: url(../img/laptop.png);
 	background-size: cover;
+}/* END SERVICES SECTION*/
+
+
+/* CONTACT SECTION */
+.contact {
+	background-color: #0B0B0B;
+}
+
+
+/* TOP */
+.contact-top {
+	background-color: #ffffff;
+	padding-bottom: 35px;
+}
+
+.contact-top hr {
+	width: 30%;
+	margin: 15px auto 25px auto;
+}
+
+.contact-top > p {
+    margin: 25px auto;
+    width: 55%;
+    line-height: 40px;
+    color: #7e8287;
+    text-align: center;
+}
+
+/* CONTACT FORM */
+.contact-bottom {
+	background-color: #0B0B0B;
+	text-align: center;
+	padding: 25px 0;
+}
+
+.contact-bottom label {
+	margin-top: 35px;
+	display: block;
+	color: #7D8186;
+	text-transform: uppercase;
+}
+
+.contact-bottom input, .contact-bottom textarea {
+	background: transparent;
+	border: none;
+	border-bottom: solid #7D8186 1px;
+	width: 60%;
+	font-size: 24px;
+	color: #7D8186;
+	text-align: center;
+}
+
+.contact-bottom input, .contact-bottom textarea:focus{
+	outline: none;
+}
+
+.contact-bottom input {
+	height: 30px;
+}
+
+.contact-bottom textarea {
+	border-top: solid #7D8186 1px;
+	margin-top: 24px;
+}
+
+.submit {
+	margin: 45px auto;
+}
+
+.submit > button {
+	background-color: #CDC71D;
+	padding: 10px 35px;
+	border: none;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 14px;
+	color: #0B1016;
+	transition: ease 1s;
+}
+
+.submit > button:hover {
+	background-color: #ffffff;
+}/*END CONTACT*/
+
+/* FOOTER */
+footer {
+	background-color: #000000;
+	color: #7D8186;
+	padding: 20px;
+	text-align: center;
+	text-transform: uppercase;
 }
